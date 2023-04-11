@@ -1,3 +1,30 @@
 .Header{
+    /* background-color: purple; */
     display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+.header-logo{
+    color: #1A1919;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+}
+nav .nav{
+    text-decoration: none;
+    margin-right: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px; 
+    color: #757575;
+}
+.Header-btn{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    padding: 19px 28px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 20px; */
 }

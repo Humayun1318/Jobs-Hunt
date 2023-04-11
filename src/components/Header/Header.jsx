@@ -6,11 +6,11 @@ const Header = () => {
     return (
         <div className='Header'>
             <h2 className='header-logo'> Career Hub</h2>
-            <nav>
-                <Link to='/'>Home</Link>
-                <Link to='/Statistics'>Statistics</Link>
-                <Link to='/AppliedJobs'>Applied Jobs</Link>
-                <Link to='/Blog'>Blog</Link>
+            <nav >
+                <Link className='nav' to='/'>Home</Link>
+                <Link className='nav' to='/Statistics'>Statistics</Link>
+                <Link className='nav' to='/AppliedJobs'>Applied Jobs</Link>
+                <Link className='nav' to='/Blog'>Blog</Link>
             </nav>
             <button className='Header-btn'>Star Applying</button>
         </div>
