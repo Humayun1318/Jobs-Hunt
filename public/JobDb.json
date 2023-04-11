@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "company_logo": "./src/assets/Logo/google-1-1 1-1.png",
+        "job_title": "Front-End Developer",
+        "company_name": "Google",
+        "remote_or_onsite": "Remote",
+        "location": "Dhaka, Bangladesh",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$80,000 - $100,000",
+        "job_description": "As a Front-End Developer at Google, you will work on exciting projects that directly impact millions of users. You will collaborate with cross-functional teams to build and maintain high-quality web applications, while ensuring they are performant, accessible, and responsive. We are looking for someone who is passionate about building elegant and intuitive user interfaces, and who constantly strives to learn and improve.",
+        "job_responsibility": "Responsibilities include:\n- Develop new user-facing features\n- Build reusable code and libraries for future use\n- Ensure the technical feasibility of UI/UX designs\n- Optimize application for maximum speed and scalability\n- Collaborate with other team members and stakeholders\n- Stay up-to-date with emerging trends and technologies in front-end development",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "Minimum 2 years of experience in front-end development",
+        "contact_information": {
+            "phone": "123-456-7890",
+            "email": "front-end-developer@google.com"
+        }
+    },
+    {
+        "id": 2,
+        "company_logo": "./src/assets/Logo/netflix-4 1.png",
+        "job_title": "Accountant",
+        "company_name": "Netflix",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$70,000 - $90,000",
+        "job_description": "As an Accountant at Netflix, you will play a critical role in managing our financial accounts and ensuring the accuracy and compliance of our financial reporting. You will collaborate with cross-functional teams and external partners to perform audits and develop financial strategies that align with our business objectives. We are looking for someone who has a strong attention to detail, excellent communication skills, and a deep understanding of accounting principles and regulations.",
+        "job_responsibility": "Responsibilities include:\n- Manage and maintain financial accounts\n- Develop and implement financial policies and procedures\n- Perform audits and ensure compliance with regulations\n- Collaborate with other team members and stakeholders\n- Analyze financial data and provide recommendations for improvement\n- Stay up-to-date with emerging trends and technologies in accounting",
+        "educational_requirements": "Bachelor's degree in Accounting or related field",
+        "experiences": "Minimum 5 years of experience in accounting",
+        "contact_information": {
+            "phone": "123-456-7890",
+            "email": "accountant@netflix.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "./src/assets/Logo/tesla-9 1.png",
+        "job_title": "UX Designer",
+        "company_name": "Tesla",
+        "remote_or_onsite": "Remote",
+        "location": "Kampala, Uganda",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$90,000 - $120,000",
+        "job_description": "At Tesla, we are looking for a talented UX designer to join our team. As a UX designer, you will work closely with our product and engineering teams to create innovative and intuitive user experiences for our web and mobile applications. You will be responsible for researching and designing user interfaces, conducting user testing, and ensuring that our products meet high standards of usability and accessibility.",
+        "job_responsibility": "As a UX Designer at Tesla, your main responsibilities will include:\n- Collaborating with product managers, engineers, and designers to understand user needs and create innovative solutions\n- Conducting user research and creating user personas, user journeys, and wireframes\n- Designing high-fidelity mockups and prototypes\n- Conducting user testing and incorporating feedback into your designs\n- Ensuring that our products meet high standards of usability and accessibility\n- Staying up to date with industry trends and best practices",
+        "educational_requirements": "Bachelor's degree in Graphic Design, Computer Science, or a related field",
+        "experiences": "Minimum 3 years of experience in UX design",
+        "contact_information": {
+            "phone": "+256-123-456-7890",
+            "email": "jobs@tesla.com"
+        }
+    },
+    {
+        "id": 4,
+        "company_logo": "./src/assets/Logo/google-1-1 1.png",
+        "job_title": "Marketing Specialist",
+        "company_name": "Google",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco, California",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$80,000 - $100,000",
+        "job_description": "At Google, we are looking for a skilled marketing specialist to join our team. As a marketing specialist, you will be responsible for developing and implementing marketing campaigns for our products and services. You will work closely with our product teams to understand our target audience and create effective messaging and strategies to reach them.",
+        "job_responsibility": "As a Marketing Specialist at Google, your main responsibilities will include:\n- Developing and implementing marketing campaigns for our products and services\n- Conducting market research and analysis to understand our target audience\n- Creating effective messaging and content to reach our audience\n- Working closely with our product teams to ensure that our marketing efforts align with our product goals\n- Tracking and analyzing the performance of our marketing campaigns, and using data to inform future strategies\n- Staying up to date with industry trends and best practices",
+        "educational_requirements": "Bachelor's degree in Marketing or a related field",
+        "experiences": "Minimum 3 years of experience in marketing",
+        "contact_information": {
+            "phone": "+1-123-456-7890",
+            "email": "jobs@google.com"
+        }
+    },
+    {
+        "id": 5,
+        "company_logo": "./src/assets/Logo/netflix-4 1.png",
+        "job_title": "iOS Developer",
+        "company_name": "Apple Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "Cupertino, CA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$110,000 - $150,000",
+        "job_description": "As an iOS Developer at Apple, you'll be part of a team responsible for designing and developing high-quality software for Apple's mobile devices.",
+        "job_responsibility": "Responsibilities include: \n- Developing and maintaining iOS applications \n- Working with cross-functional teams to define, design, and ship new features \n- Participating in code and design reviews \n- Troubleshooting and debugging issues \n- Staying up to date with new technology trends and applying them to our software development process.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science, Software Engineering or a related field",
+        "experiences": "Minimum of 5 years of experience in iOS development",
+        "contact_information": {
+            "phone": "111-111-1111",
+            "email": "iosdevjobs@apple.com"
+        }
+    },
+    {
+        "id": 6,
+        "company_logo": "./src/assets/Logo/tesla-9 1.png",
+        "job_title": "Software Engineer",
+        "company_name": "Amazon Web Services",
+        "remote_or_onsite": "Remote",
+        "location": "Seattle, WA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$120,000 - $160,000",
+        "job_description": "As a Software Engineer at Amazon Web Services, you'll be responsible for developing high-performance and highly scalable cloud-based services and applications.",
+        "job_responsibility": "Responsibilities include: \n- Designing, developing, testing, deploying, and maintaining software solutions \n- Collaborating with cross-functional teams to define, design, and ship new features \n- Participating in code and design reviews \n- Troubleshooting and debugging issues \n- Staying up to date with new technology trends and applying them to our software development process.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science, Software Engineering or a related field",
+        "experiences": "Minimum of 3 years of experience in software development",
+        "contact_information": {
+            "phone": "222-222-2222",
+            "email": "softwareengineerjobs@aws.com"
+        }
+    }
+]

@@ -1,0 +1,40 @@
+.feature-individual{
+    border: 2px solid red;
+    padding: 40px;
+    margin-top: 32px;
+}
+.job-title{
+    margin-top: 14px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.company-name{
+    margin-top: 0px;
+    color: #757575;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.btn-remote{
+    border-radius: 4px;
+    padding: 9px 19px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.btn-full-or-part-time{
+    margin-left: 16px;
+    border-radius: 4px;
+    padding: 9px 19px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}

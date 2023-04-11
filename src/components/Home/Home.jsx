@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Home.css'
 import Category from '../Category/Category';
 import { useLoaderData } from 'react-router-dom';
+import Features from '../Features/Features';
 
 const Home = () => {
     const categoryData = useLoaderData()
@@ -9,7 +10,7 @@ const Home = () => {
     const [features, setFeatures] = useState([])
 
     useEffect(() => {
-        fetch('jobDb.json')
+        fetch('JobDb.json')
             .then(res => res.json())
             .then(data => setFeatures(data))
     }, [])
@@ -38,7 +39,7 @@ const Home = () => {
                 <h1 className='ctg-title'>Job Category List</h1>
                 <p className='ctg-des'>Explore thousands of job opportunities with all the information you
                     need. Its your future</p>
-                <div className=' ' >
+                <div className='ctg-grid-container ' >
 
                     {
                         categoryData.map(category => <Category
@@ -50,6 +51,27 @@ const Home = () => {
                        )
                     }
                 </div>
+            </div>
+            {/* features data */}
+            <div className='ctg-container'>
+                <h1 className='ctg-title'>Job Category List</h1>
+                <p className='ctg-des'>Explore thousands of job opportunities with all the information 
+                 you need. Its your future</p>
+
+                <div className='feature-grid-container'>
+                    {
+                        features.map(feature => <Features
+                            key={feature.id}
+                            feature={feature}
+                        >
+
+                        </Features>
+                        )
+
+                    }
+                </div>
+
+
             </div>
         </div>
     );

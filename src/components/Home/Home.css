@@ -53,7 +53,7 @@
 .ctg-container{
     width: 80%;
     margin: auto;
-    text-align: center;
+    margin-bottom: 130px;
     margin-top: 98px;
 
 }
@@ -63,6 +63,7 @@
     font-size: 48px;
     color: #1A1919;
     margin-bottom: 16px;
+    text-align: center;
 
 }
 .ctg-des{
@@ -71,6 +72,18 @@
     font-size: 16px;
     color: #757575;
     margin-bottom: 30px;
+    text-align: center;
+
+}
+.ctg-grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.feature-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
 
 }
 
@@ -94,5 +107,26 @@
     }
     .banner-btn{
         padding: 9px 14px;
+    }
+    .ctg-container{
+        
+
+    }
+
+
+
+
+
+
+
+
+
+    .ctg-grid-container{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-grid-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
