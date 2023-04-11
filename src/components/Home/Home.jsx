@@ -19,8 +19,9 @@ const Home = () => {
         <div>
             <div className='banner-clr'>
                 <div className='banner-section'>
-                    <div className='banner-title'>
-                        <h1>One Step Closer To Your <br /><span className='dream'>Dream Job</span></h1>
+                    <div >
+                        <h1 className='banner-title'>One Step Closer To Your <br /><span 
+                         className='dream'>Dream Job</span></h1>
                         <p className='banner-des'>Explore thousands of job opportunities with all the
                             information
                             you need. Its your future. Come find it. Manage all your job application from
@@ -71,6 +72,9 @@ const Home = () => {
                     }
                 </div>
 
+                <div className='all-jobs-btn'>
+                    <button className='see-all-jobs'>See All Jobs</button>
+                </div>
 
             </div>
         </div>

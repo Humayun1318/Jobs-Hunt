@@ -6,14 +6,17 @@
     margin: auto;
     padding-top: 16px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
    
 }
 .banner-title{
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 50px;
     color: #1A1919;
+    margin-bottom: 24px;
     
 
 }
@@ -23,9 +26,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-style: normal;
+    /* font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 30px; */
+    
     
 
 }
@@ -34,6 +38,8 @@
     font-weight: 500;
     font-size: 18px;
     color: #757575;
+    margin-top: 0px;
+    margin-bottom: 32px;
 
 }
 .banner-btn{
@@ -85,6 +91,20 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 
+}
+.see-all-jobs{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    padding: 19px 28px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 40px; 
+}
+.all-jobs-btn{
+    display: flex;
+    justify-content: center;
 }
 
 

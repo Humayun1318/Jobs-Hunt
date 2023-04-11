@@ -15,8 +15,8 @@ const Features = ({feature}) => {
                 <button className='btn-remote'>{remote_or_onsite}</button>
                 <button className='btn-full-or-part-time'> {fulltime_or_parttime}</button>
             </div>
-            <p>{location}     {salary}   </p>
-            <button onClick={() => navigate(`jobDetails/${id}`)} className=''>View Details</button>
+            <p className='salary'>{location}        {salary}   </p>
+            <button onClick={() => navigate(`jobDetails/${id}`)} className='view-details'>View Details</button>
         </div>
     );
 };
