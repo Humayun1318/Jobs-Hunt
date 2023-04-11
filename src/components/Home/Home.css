@@ -1,12 +1,98 @@
+.banner-clr{
+     background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
 .banner-section{
+    width: 80%;
+    margin: auto;
+    padding-top: 16px;
     display: flex;
+    gap: 24px;
+   
 }
 .banner-title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #1A1919;
+    
 
 }
 .dream{
+    
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    
 
 }
 .banner-des{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #757575;
 
+}
+.banner-btn{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    padding: 19px 28px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+}
+.banner-img{
+    border: 2px solid red;
+}
+.banner-img img{
+    width: 100%;
+}
+.ctg-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 98px;
+
+}
+.ctg-title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    color: #1A1919;
+    margin-bottom: 16px;
+
+}
+.ctg-des{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .dream{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .banner-des{
+        font-weight: 400;
+        font-size: 9px;
+    }
+    .banner-btn{
+        padding: 9px 14px;
+    }
 }
