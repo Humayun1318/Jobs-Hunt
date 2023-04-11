@@ -1,9 +1,11 @@
 .Header{
-    /* background-color: purple; */
+    background-color: purple;
     display: flex;
     justify-content: space-between;
-   
     align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    
 }
 .header-logo{
     color: #1A1919;
@@ -27,4 +29,26 @@ nav .nav{
     font-style: normal;
     font-weight: 700;
     /* font-size: 20px; */
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .Header{
+        display: block;
+        flex-direction: column;
+    }
+    nav .nav{
+        margin-bottom: 16px;
+        margin-left: 0px;
+        display: block;
+        text-align: center;
+    }
+    .Header-btn{
+         padding: 9px 14px;
+         font-weight: 300;
+    }
+    .Header-btn-d{
+        text-align: center;
+    }
 }
