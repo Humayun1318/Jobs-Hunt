@@ -6,12 +6,13 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './components/Home/Home';
-import Main from './components/Layout/Main';
-import Statistics from './components/Statistics/Statistics';
-import AppliedJobs from './components/Applied-Jobs/AppliedJobs';
-import Blog from './components/Blog/Blog';
-import JobDetails from './components/JobDetails/JobDetails';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Component/Home/Home';
+import Main from './Component/Layout/Main';
+import Statistics from './Component/Statistics/Statistics';
+import AppliedJobs from './Component/ApliedJobs/ApliedJobs';
+import Blog from './Component/Blog/Blog';
+import JobDetails from './Component/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -39,7 +40,14 @@ const router = createBrowserRouter([
         path: '/Blog',
         element: <Blog></Blog>
       },
-      
+      {
+        path: '*',
+        element: <div className='text-center mt-5 text-bg-danger p-5 '
+          style={{ height: '300px', alignItems: 'center' }}>
+          <h1 className='p-5 '>404 Not Found</h1>
+        </div>
+      },
+
     ]
   }
 ])
