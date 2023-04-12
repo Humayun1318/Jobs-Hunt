@@ -35,7 +35,8 @@ const Features = ({ feature }) => {
 
                 </div>
                 <p className='fs-6'>{location}     {salary}   </p>
-                <button onClick={() => navigate(`jobDetails/${id}`)} className='px py-2 fs-6 border-0 rounded-3 text-white fw-bold w-50 ' style={{
+                <button onClick={() => navigate(`jobDetails/${id}`)}
+                    className='px py-2 fs-6 border-0 rounded-3 text-white fw-bold w-50 ' style={{
                     background: ` linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)`
                 }}>View Details</button>
 

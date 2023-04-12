@@ -26,28 +26,28 @@ const Home = () => {
                         <div className="col-12 col-md-6  sm-12 ,md:mt-5 " >
                             <h1 className='fw-bold display-3 mt-5'>One Step <br />
                                 Closer To Your <br /> <span className='' style={{
-                                    color: '  #7E90FE '
-                                }}>Dream Job</span> </h1>
+                                color: '  #7E90FE '
+                            }}>Dream Job</span> </h1>
 
-                            <p>Explore thousands of job opportunities with all the information you need.
-                                Its your future. Come find it. Manage all your job application from start
-                                to finish.</p>
+                            <p>Explore thousands of job opportunities with all the information you need. 
+                                Its your future. Come find it. Manage all your job application from start 
+                                 to finish.</p>
 
                             <button className='px-4 py-3 fs-4 border-0 rounded-3 text-white' style={{
                                 background: ` linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)`
                             }}>Get Started</button>
                         </div>
                         <div className="col-12 col-md-6 sm-12 ms-6"><img
-                            className='img-fluid ' src="../../../assets/All Images/P3OLGJ1 copy 1.png"
-                            alt="" /></div>
+                            className='img-fluid ' src="../../../assets/All Images/P3OLGJ1 copy 1.png" 
+                             alt="" /></div>
                     </div>
                 </div>
             </div>
             <div className='container ' >
                 <div className='category-container text-center my-5'>
                     <h4 className='fw-bold fs-2'>Job Category List</h4>
-                    <p className='mb-5 opacity-75'>Explore thousands of job opportunities with all the
-                        information you need. Its your future</p>
+                    <p className='mb-5 opacity-75'>Explore thousands of job opportunities with all the 
+                     information you need. Its your future</p>
                     <div className='row' >
                         {
                             Array.isArray(categoryData) && categoryData.map(category => (
@@ -66,8 +66,8 @@ const Home = () => {
                 {/* features data */}
                 <div className='text-center'>
                     <h4 className='fw-bold fs-2'>Featured Jobs</h4>
-                    <p className='mb-5 opacity-75'>Explore thousands of job opportunities with all the
-                        information you need. Its your future</p>
+                    <p className='mb-5 opacity-75'>Explore thousands of job opportunities with all the 
+                     information you need. Its your future</p>
                 </div>
                 <div className='row'>
                     {featuresToShow.map(feature => (

@@ -1,14 +1,14 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 const AllJobs = ({ cart }) => {
     const { company_logo, company_name, remote_or_onsite, location, salary, job_title, fulltime_or_parttime, id } = cart;
-    const navigate = useNavigate(-1);
+    const navigate = useNavigate();
+   
     return (
 
         <div>
-
-
             <div className='border my-3 p-3 d-flex flex-column flex-md-row'>
                 <div className='d-flex align-items-center mb-3 mb-md-0'>
                     <div className='me-3'>
@@ -38,8 +38,8 @@ const AllJobs = ({ cart }) => {
                 </div>
 
                 <div className='text-end ms-md-auto my-auto'>
-                    <button onClick={() => navigate(-1)}
-                        className='px-4 py-2 fs-6 md:py-3 border-0 rounded-3 text-white fw-bold'
+                    <button onClick={() => navigate(`../jobDetails/${id}`)}
+                        className='px-4 py-2 fs-6 md:py-3 border-0 rounded-3 text-white fw-bold' 
                         style={{ background: `linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)` }}>
                         View Details
                     </button>
