@@ -40,7 +40,7 @@ const Home = () => {
                             }}>Get Started</button>
                         </div>
                         <div className="col-12 col-md-6 sm-12 ms-6"><img
-                            className='img-fluid ' src="../../../assets/All Images/P3OLGJ1 copy 1.png" 
+                            className='img-fluid ' src="../../../public/bannerPerson.png" 
                              alt="" /></div>
                     </div>
                 </div>
