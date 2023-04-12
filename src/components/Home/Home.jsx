@@ -56,7 +56,8 @@ const Home = () => {
             {/* features data */}
             <div className='ctg-container'>
                 <h1 className='ctg-title'>Job Category List</h1>
-                <p className='ctg-des'>Explore thousands of job opportunities with all the information 
+                <p className='ctg-des'>Explore thousands of job opportunities 
+                 with all the information 
                  you need. Its your future</p>
 
                 <div className='feature-grid-container'>

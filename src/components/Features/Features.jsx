@@ -1,10 +1,13 @@
 import React from 'react';
 import './Features.css'
+import { useNavigate } from 'react-router-dom';
 
 const Features = ({feature}) => {
-    console.log(feature)
+    // console.log(feature)
     const { company_logo, company_name, remote_or_onsite, location, salary, job_title, 
         fulltime_or_parttime, job_description, id } = feature;
+    
+    const navigate = useNavigate();
     
     return (
         <div className='feature-individual'>

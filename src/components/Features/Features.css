@@ -1,6 +1,7 @@
 .feature-individual{
-    /* border: 2px solid red; */
-    
+    /* border: px solid ; */
+    background-color: #f4f4f46b;
+    border-radius: 5px;
     padding: 40px;
     margin-top: 32px;
     
