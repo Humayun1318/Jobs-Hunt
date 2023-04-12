@@ -2,13 +2,13 @@ import React from 'react';
 import { ComposedChart, Line, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const data = [
-    { assignment: 'Assignment 1', number: 45 },
-    { assignment: 'Assignment 2', number: 40 },
-    { assignment: 'Assignment 3', number: 55 },
-    { assignment: 'Assignment 4', number: 30 },
+    { assignment: 'Assignment 1', number: 60 },
+    { assignment: 'Assignment 2', number: 60 },
+    { assignment: 'Assignment 3', number: 60 },
+    { assignment: 'Assignment 4', number: 60 },
     { assignment: 'Assignment 5', number: 60 },
-    { assignment: 'Assignment 6', number: 40 },
-    { assignment: 'Assignment 7', number: 50 },
+    { assignment: 'Assignment 6', number: 60 },
+    { assignment: 'Assignment 7', number: 60 },
 ];
 
 const Statistics = () => {

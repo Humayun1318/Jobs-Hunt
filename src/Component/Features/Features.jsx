@@ -1,6 +1,8 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import { useLoaderData, useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocation, faSackDollar, faVoicemail, faPhone, faCrosshairs } from '@fortawesome/free-solid-svg-icons'
 
 const Features = ({ feature }) => {
     const { company_logo, company_name, remote_or_onsite, location, salary, job_title, fulltime_or_parttime, id } = feature;
@@ -34,7 +36,7 @@ const Features = ({ feature }) => {
                     }}>{fulltime_or_parttime}</button>
 
                 </div>
-                <p className='fs-6'>{location}     {salary}   </p>
+                <p className='fs-6'><FontAwesomeIcon icon={faLocation} />{location}  {salary}   </p>
                 <button onClick={() => navigate(`jobDetails/${id}`)}
                     className='px py-2 fs-6 border-0 rounded-3 text-white fw-bold w-50 ' style={{
                     background: ` linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)`

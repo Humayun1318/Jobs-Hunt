@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocation, faSackDollar, faVoicemail, faPhone, faCrosshairs } from '@fortawesome/free-solid-svg-icons'
 
 const AllJobs = ({ cart }) => {
     const { company_logo, company_name, remote_or_onsite, location, salary, job_title, fulltime_or_parttime, id } = cart;
@@ -33,7 +34,8 @@ const AllJobs = ({ cart }) => {
 
                             }}>{fulltime_or_parttime}</button>
                         </div>
-                        <p className='mb-0'>{location} {salary}</p>
+                        <p className='mb-0'><FontAwesomeIcon icon={faLocation} />{location} 
+                            <span className='me-4'>{salary}</span></p>
                     </div>
                 </div>
 

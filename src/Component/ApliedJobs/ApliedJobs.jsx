@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AllJobs from "../AllJobs/AllJobs";
 
+
 function ApliedJobs() {
     const cartItems = JSON.parse(localStorage.getItem("jobData")) || [];
 

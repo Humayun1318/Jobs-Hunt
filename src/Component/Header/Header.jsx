@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <Navbar className='' style={{ background: ' linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%)' }} bg="" expand="lg">
             <Container className=''>
-                <Navbar.Brand className='fs-2 fw-semi-bold' href="/">ChakriBazar</Navbar.Brand>
+                <Navbar.Brand className='fs-2 fw-semi-bold' href="/">Jobs Hunt</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="navbar mx-auto gap-4" style={{ color: 'black' }}>

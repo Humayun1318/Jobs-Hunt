@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocation, faSackDollar, faVoicemail, faPhone, faCrosshairs } from '@fortawesome/free-solid-svg-icons'
+
 
 const jobDetails = () => {
   const { jobId } = useParams();
@@ -54,19 +57,25 @@ const jobDetails = () => {
             }}>
               <p> <span className='fw-bold'>Job Details</span></p>
               <hr />
-              <p> <span className='fw-bold'>Salary :</span>
+              <p> <span className='fw-bold '> <FontAwesomeIcon className='' icon={faSackDollar} />
+               Salary :</span>
                 <span className='' style={{ color: '#757575' }}>{jobData?.salary}</span></p>
-              <p> <span className='fw-bold'>Job Title:</span>  <span className=''
+              <p> <span className='fw-bold'> <FontAwesomeIcon icon={faCrosshairs} />
+                Job Title:</span>  <span className=''
                 style={{ color: '#757575' }}>{jobData?.job_title}</span></p>
-              <p> <span className='fw-bold'>Contact Information </span>  </p>
+              <p> <span className='fw-bold'>
+                Contact Information </span>  </p>
               <hr />
 
-              <p> <span className='fw-bold'>Phone :
+              <p> <span className='fw-bold'><FontAwesomeIcon icon={faPhone} />
+                   Phone :
               </span><span className='' style={{ color: '#757575' }}>{jobData?.contact_information.phone} 
                </span></p>
-              <p><span className='fw-bold'>Email : </span><span className=''
+              <p><span className='fw-bold'><FontAwesomeIcon icon={faVoicemail} />
+                Email : </span><span className=''
                 style={{ color: '#757575' }}> {jobData?.contact_information.email}</span></p>
-              <p> <span className='fw-bold'>Address </span>: <span className=''
+              <p> <span className='fw-bold'><FontAwesomeIcon icon={faLocation} />
+                 Address </span>: <span className=''
                 style={{ color: '#757575' }}>{jobData?.location}</span></p>
 
             </div>

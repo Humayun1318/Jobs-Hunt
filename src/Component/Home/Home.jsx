@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Category from '../Category/Category';
 import Features from '../Features/Features';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocation, faSackDollar, faVoicemail, faPhone, faCrosshairs } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
 
