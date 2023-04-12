@@ -18,9 +18,9 @@ const Features = ({ feature }) => {
             <Card className=' rounded m-3 px-5 py-5 '  >
 
                 <img className='img-fluid' style={{ width: '120px', height: '40px' }} src={company_logo} alt="" />
-                <h3 className='md:my-1 fs-5'>{job_title}</h3>
-                <h5 className='md:my-1 fs-6'>{company_name}</h5>
-                <div className='md:my-2'>
+                <h3 className='md:my-1 fs-5 mt-4 mb-4'>{job_title}</h3>
+                <h5 className='md:my-1 fs-6 mb-4'>{company_name}</h5>
+                <div className='md:my-2 mb-4'>
                     <button className='bg-white  me-4 p-2 fs-6 rounded-1 fw-bold  ' style={{
                         color: "#7E90FE ",
                         border: '1px solid #7E90FE'

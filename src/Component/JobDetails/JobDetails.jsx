@@ -26,7 +26,8 @@ const jobDetails = () => {
 
     <div >
       <div className=''>
-        <h4 className='text-center py-5 p-4' style={{ background: ' linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%)' }}>Job Details</h4>
+        <h4 className='text-center py-5 p-4'style={{ background: ' linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%)' }}>
+          Job Details</h4>
       </div>
       <div className='container my-5'>
         <div className="row ">
@@ -40,7 +41,8 @@ const jobDetails = () => {
 
             <p><span className='fw-bold'>Job Responsibility:</span>  {jobData?.job_responsibility}</p>
 
-            <p><span className='fw-bold'>Educational Requirements:</span> <br />  {jobData?.educational_requirements}</p>
+            <p><span className='fw-bold'>Educational Requirements:
+            </span> <br />  {jobData?.educational_requirements}</p>
 
             <p><span className='fw-bold'>Experiences: </span> <br />  {jobData?.experiences}</p>
 
@@ -52,18 +54,25 @@ const jobDetails = () => {
             }}>
               <p> <span className='fw-bold'>Job Details</span></p>
               <hr />
-              <p> <span className='fw-bold'>Salary :</span> <span className='' style={{ color: '#757575' }}>{jobData?.salary}</span></p>
-              <p> <span className='fw-bold'>Job Title:</span>  <span className='' style={{ color: '#757575' }}>{jobData?.salary}</span></p>
+              <p> <span className='fw-bold'>Salary :</span>
+                <span className='' style={{ color: '#757575' }}>{jobData?.salary}</span></p>
+              <p> <span className='fw-bold'>Job Title:</span>  <span className=''
+                style={{ color: '#757575' }}>{jobData?.job_title}</span></p>
               <p> <span className='fw-bold'>Contact Information </span>  </p>
               <hr />
 
-              <p> <span className='fw-bold'>Phone : </span><span className='' style={{ color: '#757575' }}>{jobData?.contact_information.phone}</span></p>
-              <p> <span className='fw-bold'>Email : </span><span className='' style={{ color: '#757575' }}>{jobData?.contact_information.email}</span></p>
-              <p> <span className='fw-bold'>Address </span>: <span className='' style={{ color: '#757575' }}>{jobData?.location}</span></p>
+              <p> <span className='fw-bold'>Phone :
+              </span><span className='' style={{ color: '#757575' }}>{jobData?.contact_information.phone} 
+               </span></p>
+              <p><span className='fw-bold'>Email : </span><span className=''
+                style={{ color: '#757575' }}> {jobData?.contact_information.email}</span></p>
+              <p> <span className='fw-bold'>Address </span>: <span className=''
+                style={{ color: '#757575' }}>{jobData?.location}</span></p>
 
             </div>
 
-            <button onClick={handleAddData} className='px-4 py-3 mt-3 fs-5 border-0 rounded-3 text-white fw-bold w-100' style={{
+            <button onClick={handleAddData}
+              className='px-4 py-3 mt-3 fs-5 border-0 rounded-3 text-white fw-bold w-100' style={{
               background: ` linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)`
             }}>Apply Now</button>
           </div>
