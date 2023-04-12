@@ -12,7 +12,9 @@ const AllJobs = ({ cart }) => {
             <div className='border my-3 p-3 d-flex flex-column flex-md-row'>
                 <div className='d-flex align-items-center mb-3 mb-md-0'>
                     <div className='me-3'>
-                        <img className='border py-5 px-3 rounded-3' style={{ background: '#F4F4F4', maxWidth: '120px' }} src={company_logo} alt='' />
+                        <img className='border py-5 px-3 rounded-3'
+                            style={{ background: '#F4F4F4', maxWidth: '120px' }} src={company_logo} 
+                             alt='' />
                     </div>
 
                     <div className=''>
@@ -36,7 +38,9 @@ const AllJobs = ({ cart }) => {
                 </div>
 
                 <div className='text-end ms-md-auto my-auto'>
-                    <button onClick={() => navigate(-1)} className='px-4 py-2 fs-6 md:py-3 border-0 rounded-3 text-white fw-bold' style={{ background: `linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)` }}>
+                    <button onClick={() => navigate(-1)}
+                        className='px-4 py-2 fs-6 md:py-3 border-0 rounded-3 text-white fw-bold'
+                        style={{ background: `linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)` }}>
                         View Details
                     </button>
                 </div>

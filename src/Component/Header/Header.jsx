@@ -16,8 +16,10 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="navbar mx-auto gap-4" style={{ color: 'black' }}>
                         <Link to="/" className="nav-link text-decoration-none text-dark">Home</Link>
-                        <Link to="/statistics" className="nav-link text-decoration-none text-dark">Statistics</Link>
-                        <Link to="/appliedJobs" className="nav-link text-decoration-none text-dark">Applied Jobs</Link>
+                        <Link to="/statistics"
+                            className="nav-link text-decoration-none text-dark">Statistics</Link>
+                        <Link to="/appliedJobs"
+                            className="nav-link text-decoration-none text-dark">Applied Jobs</Link>
                         <Link to="/blog" className="nav-link text-decoration-none text-dark">Blog</Link>
                     </Nav>
 
